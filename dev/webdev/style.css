@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.908);
+    margin-top: 25%;
+
+
+}
+
+#btn {
+    font-size: 2em;
+    padding: 5px 25px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    background-color: rgb(151, 211, 31);
+}
+
+#label {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em
+    
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* Dark grey color */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+/* Modern input field */
+input {
+    width: 10%;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background:rgba(0, 0, 0, 0.908);/* Light background */
+}
+
+/* Input hover effect */
+input:hover {
+    background: #929191;
+    color: black;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: rgb(151, 211, 31); /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(174, 243, 37, 0.6); /* Subtle glow */
+    background: white;
+}
